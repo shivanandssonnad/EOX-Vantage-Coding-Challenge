@@ -1,0 +1,13 @@
+.dropdown-menu-container {
+  display: none;
+  border: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 801px) {
+  .sidebar-menu-container {
+    display: none;
+  }
+  .dropdown-menu-container {
+    display: block;
+  }
+}

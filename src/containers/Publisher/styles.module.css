@@ -1,0 +1,21 @@
+.news-item-container {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.news-item-container:hover {
+  background: #ddd;
+}
+
+.news-list-title {
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}

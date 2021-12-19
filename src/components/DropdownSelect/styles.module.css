@@ -1,0 +1,15 @@
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-title {
+  cursor: pointer;
+  min-width: 250px;
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown-content {
+  position: absolute;
+  z-index: 1;
+}
